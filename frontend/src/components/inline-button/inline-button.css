@@ -1,0 +1,15 @@
+@import url("../../common.css");
+
+.inline-button{
+    transition-duration: 0.2s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.inline-button:hover{
+    color: var(--primary-color);
+}
+
+.inline-button:active{
+    color: var(--primary-active-color);
+}

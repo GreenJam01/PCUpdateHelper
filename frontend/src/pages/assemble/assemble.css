@@ -1,0 +1,15 @@
+.assemble_page__section{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    min-width: 40vw;
+}
+
+.assemble_page__container{
+    justify-items: center;
+}
+
+.assemble_page__radio-button{
+    display: flex;
+    gap: 0.5em;
+}

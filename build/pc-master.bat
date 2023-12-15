@@ -1,0 +1,1 @@
+java -Dfile.encoding=windows-1251 -jar pcm-back-0.0.1-SNAPSHOT.jar

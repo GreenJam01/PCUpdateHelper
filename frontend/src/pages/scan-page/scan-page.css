@@ -1,0 +1,12 @@
+.scan-page__input__field{
+    padding: 0.5em 1em;
+    background-color: rgba(212, 60, 56, 0.47);
+    border-color: #d43c38;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.scan-page__input__field:focus{
+    outline: none;
+    background-color: rgba(212, 60, 56, 0.2);
+}

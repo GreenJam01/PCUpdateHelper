@@ -1,0 +1,43 @@
+.button{
+    padding: 0.5em 1.5em;
+
+    font-size: 1.1em;
+
+    border: 2px solid #d43c38;
+
+    transition-duration: 0.2s;
+
+    cursor: pointer;
+
+    flex-shrink: 1;
+
+}
+
+.button--primary{
+    background-color: rgb(59, 17, 16);
+    color: white;
+}
+
+.button--primary:hover{
+    background-color: #d43c38;
+}
+
+.button--primary:active{
+    background-color: inherit;
+}
+
+.button--secondary{
+    border-style: solid;
+    border-color: #8b00ff;
+    background-color: white;
+    color: #8b00ff;
+}
+
+.button--secondary:hover{
+    background-color: #7101cb;
+    color: white;
+}
+
+.button--secondary:active{
+    background-color: #490085;
+}
