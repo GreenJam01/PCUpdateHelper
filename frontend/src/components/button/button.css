@@ -3,7 +3,7 @@
 
     font-size: 1.1em;
 
-    border: 2px solid #d43c38;
+    border: 2px solid #6d55cb;
 
     transition-duration: 0.2s;
 
@@ -14,12 +14,12 @@
 }
 
 .button--primary{
-    background-color: rgb(59, 17, 16);
+    background-color: rgb(16 26 59);
     color: white;
 }
 
 .button--primary:hover{
-    background-color: #d43c38;
+    background-color: #3846d4;
 }
 
 .button--primary:active{

@@ -32,9 +32,7 @@ export function ScanPage() {
 
     return (
         <>
-            <div>
-                <LinkButton href={"/app/"}>На главную</LinkButton>
-            </div>
+        <div className={"a12 xs12 s12 center"}><h1>Что-то про ПК</h1></div>
             <Container className={"assemble_page__container"}>
                 <div className={"assemble_page__section a6 xs12 s12"}>
                     <h1>Процессор:</h1>
@@ -53,6 +51,9 @@ export function ScanPage() {
             </Container>
             <div className={"isolated center"}>
                 <Button>Собрать</Button>
+            </div>
+            <div className={"isolated center"}>
+                <LinkButton href={"/app/"}>На главную</LinkButton>
             </div>
         </>
     )

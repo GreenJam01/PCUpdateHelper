@@ -101,3 +101,18 @@ export const RAMs: OptionList = [
         label: "SAMSUNG"
     },
 ]
+
+export const SSD: OptionList = [
+    {
+        value: 1,
+        label: "DEXP C100"
+    },
+    {
+        value: 2,
+        label: "Apacer AS340"
+    },
+    {
+        value: 3,
+        label: "Patriot Burst"
+    },
+]

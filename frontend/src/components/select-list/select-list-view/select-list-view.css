@@ -9,12 +9,12 @@
 
     font-size: 1.1em;
 
-    border: 2px solid #d43c38;
+    border: 2px solid #6d55cb;
 
     transition-duration: 0.2s;
 
     cursor: pointer;
-    background-color: rgb(59, 17, 16);
+    background-color: rgb(16 26 59);
     color: white;
 
     display: flex;

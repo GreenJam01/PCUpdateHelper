@@ -4,9 +4,6 @@ import {Container} from "../../components/container/container";
 export function  UpgradePage(){
     return(
         <>
-            <div className={"a12"}>
-                <LinkButton href={"/app/"}>На главную</LinkButton>
-            </div>
             <Container>
                 <div className={"a12 xs12 s12 center"}><h1>Что-то про ПК</h1></div>
                 <div className={"a6 xs12 s12 center"}>
@@ -18,6 +15,9 @@ export function  UpgradePage(){
                     <LinkButton href={"/app/create"}>СОБРАТЬ!!!</LinkButton>
                 </div>
             </Container>
+            <div className={"isolated center"}>
+                <LinkButton href={"/app/"}>На главную</LinkButton>
+            </div>
         </>
     )
 }
