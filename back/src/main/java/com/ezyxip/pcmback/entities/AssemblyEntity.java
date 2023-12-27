@@ -1,14 +1,13 @@
 package com.ezyxip.pcmback.entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "ASSEMBLIES")
 public class AssemblyEntity {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String CPU;
     private String GPU;
@@ -19,8 +18,7 @@ public class AssemblyEntity {
     public AssemblyEntity() {
     }
 
-    public AssemblyEntity(Long id, String CPU, String GPU, String OP, String motherboard, String HDD) {
-        this.id = id;
+    public AssemblyEntity(String CPU, String GPU, String OP, String motherboard, String HDD) {
         this.CPU = CPU;
         this.GPU = GPU;
         this.OP = OP;
